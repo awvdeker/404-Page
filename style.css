@@ -1,0 +1,35 @@
+body{
+  background-color: white;
+}
+.buitenste_kader{
+  background-color: grey;
+  border: 2px solid black;
+  border-radius: 5px;
+  width: 300 px;
+  height: 200 px
+  margin-top: 300 px;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+  top: auto;
+  left: auto;
+}
+.tekst{
+  width: 200 px;
+  postion: absolute;
+  left: 150 px;
+  margin-left: 150 px;
+  font-size: 200%;
+  color: white;
+
+}
+.back_button{
+  position: relative;
+  width: 100 px:
+  height: 50 px;
+  background-color: gray;
+  background-image: url("home.png");
+  background-repeat: no-repeat;
+  background-position: top 0% right 50%;
+  background-size: contain;
+}
