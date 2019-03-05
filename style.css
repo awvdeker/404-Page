@@ -5,31 +5,38 @@ body{
   background-color: grey;
   border: 2px solid black;
   border-radius: 5px;
-  width: 300 px;
-  height: 200 px
-  margin-top: 300 px;
-  margin-left: auto;
-  margin-right: auto;
+  width: 200px;
+  height: 300px;
+  /*margin-top: 300 px;*/
+  /*margin-left: auto;*/
+  /*margin-right: auto;*/
   position: relative;
-  top: auto;
-  left: auto;
+  top: 200px;
+  left: 100px;
 }
 .tekst{
-  width: 200 px;
-  postion: absolute;
-  left: 150 px;
-  margin-left: 150 px;
+  text-align: center;
+  width: 100px;
+  position: absolute;
+  top: 50px;
+  left: 50px;
+  /*margin-left: 150 px;*/
   font-size: 200%;
+  font-family: Arial;
   color: white;
 
 }
 .back_button{
+  font-family: Arial;
+  text-align: center;
+  width: 300px;
+  height: 200px;
   position: relative;
-  width: 100 px:
-  height: 50 px;
-  background-color: gray;
-  background-image: url("home.png");
+  top: 400px;
+  left: 200px;
+  /*background-color: gray;*/
+  background-image: url(home.png);
   background-repeat: no-repeat;
-  background-position: top 0% right 50%;
+  background-position: top 50% left 50%;
   background-size: contain;
 }
